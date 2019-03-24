@@ -36,18 +36,23 @@ div.breathing-room {
   margin-bottom: 50px;
 }
 
-div.bigger-lr-margins {
-  margin-left: 50px;
-  margin-right: 50px;
+h1, h2, h3, h4, h5, h6, p {
+  margin: auto 20px auto;
 }
 
 /* breakpoint modifications */
 @media screen and (max-width: 1200px) {
   h1 {
     font-size: 3em;
+    text-align: center;
+    margin: 0px auto;
+    display; block
   }
   h2 {
     font-size: 1.5em;
+    text-align: center;
+    margin: 0px auto;
+    display; block
   }
   p {
     font-size: .9em;
