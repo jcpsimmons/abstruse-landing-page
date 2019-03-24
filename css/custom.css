@@ -1,18 +1,9 @@
-/*
-
-    font-family: 'Open Sans', sans-serif;
-
-    font-family: 'Old Standard TT', serif;
-
- */
-
 /* font families */
-
-h1, h2 {
+h1, h2, h3 {
   font-family: 'Old Standard TT', serif;
 }
 
-h3, h4, h5, p {
+h4, h5, p {
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -20,7 +11,38 @@ h1 {
   font-size: 5em;
 }
 
-@media screen and (max-width: 680px) {
+h2 {
+  font-size: 3em;
+}
+
+h3 {
+  font-size: 2.5em;
+}
+
+/* text-section 1 */
+div.pattern-bg {
+  background-image: url(../img/prism.png);
+  background-repeat: repeat;
+}
+
+/* extra misc. tweaks */
+/* removes the gap between jumbotron and first content block */
+.jumbotron {
+  margin-bottom: 0px;
+}
+
+div.breathing-room {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+div.bigger-lr-margins {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+/* breakpoint modifications */
+@media screen and (max-width: 1200px) {
   h1 {
     font-size: 3em;
   }
