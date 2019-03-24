@@ -6,6 +6,28 @@
 
  */
 
-h1 {
+/* font families */
+
+h1, h2 {
   font-family: 'Old Standard TT', serif;
+}
+
+h3, h4, h5, p {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  font-size: 5em;
+}
+
+@media screen and (max-width: 680px) {
+  h1 {
+    font-size: 3em;
+  }
+  h2 {
+    font-size: 1.5em;
+  }
+  p {
+    font-size: .9em;
+  }
 }
