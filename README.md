@@ -11,5 +11,3 @@ EADE9D - creme
 DFD5D5 - old lexus interior
 
 ---
-
-
