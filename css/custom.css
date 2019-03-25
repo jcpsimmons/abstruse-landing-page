@@ -73,21 +73,16 @@ div.texture {
 .parallax {
   /* background darkening with gradient */
   background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../img/abstruse-header.png);
-  height: 100%;
-  background-attachment: fixed;
+  /* height: 100%; */
+  background-attachment: scroll;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .jumbotron {
-  height: 100vh;
-  /* height: 600px; */
-}
-
-/* extra misc. tweaks */
-/* removes the gap between jumbotron and first content block */
-.jumbotron {
+  min-height: 100vh;
+  width: auto;
   margin-bottom: 0px;
 }
 
