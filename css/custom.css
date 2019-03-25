@@ -26,6 +26,10 @@ h3 {
   color: #DFD5D5;
 }
 
+.highlight-text{
+  background-color: #C5314C;
+}
+
 .my-primary-text {
   color: #8E2D3B;
 }
@@ -159,7 +163,7 @@ html, body {
     display; block
   }
   p {
-    font-size: .9em;
+    font-size: 1em;
   }
   #icons {
     text-align: center;
