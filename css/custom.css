@@ -82,8 +82,8 @@ div.texture {
 }
 
 .jumbotron {
-  min-height: 100vh;
-  width: auto;
+  height: 100vh;
+  /* width: auto; */
   margin-bottom: 0px;
 }
 
