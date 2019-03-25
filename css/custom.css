@@ -1,6 +1,7 @@
 /* font families */
 h1, h2, h3 {
   font-family: 'Old Standard TT', serif;
+  font-style: italic;
 }
 
 h4, h5, p {
