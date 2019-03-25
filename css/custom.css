@@ -40,7 +40,8 @@ div.texture {
 }
 
 .jumbotron {
-  height: 600px;
+  height: 100vh;
+  /* height: 600px; */
 }
 
 /* extra misc. tweaks */
