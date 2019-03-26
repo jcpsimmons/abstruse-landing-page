@@ -8,7 +8,7 @@ $(document).ready(function(){
 
       $('html, body').animate({
         scrollTop: $(hash).offset().top
-      }, 2000, function(){
+      }, 1000, function(){
         // Append hash to URL once scrolled.
         window.location.hash = hash;
       });
